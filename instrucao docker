@@ -1,0 +1,8 @@
+1 - crie o arquivo Dockerfile
+2- crie o arquivo jar
+    gralde clean build
+3- crie a imagem
+    docker build -t nome_imagem .
+4- rodar a imagem do container
+    docker run -p 8080:8080 nome_imagem
+5- docker ps -a
